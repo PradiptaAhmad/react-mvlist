@@ -1,0 +1,163 @@
+div {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+
+.textHeader {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  color: #c4b0ff;
+  text-shadow: 3px;
+}
+
+.bg1 {
+  background: url("../assets/images/main.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+.intro {
+  color: #c4b0ff;
+  height: 30%;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40vh;
+  font-size: 3rem;
+  font-weight: 200px;
+  line-height: 1px;
+  font-weight: 800;
+  text-shadow: 3px 3px 3px black;
+  letter-spacing: 4px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.button button {
+  height: 2.5rem;
+  width: 8rem;
+  background-color: #11009e;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #c4b0ff;
+  font-weight: 100;
+}
+
+.bg2 {
+  background: url('../assets/images/main2.jpg');
+  background-size: cover;
+  height: auto;
+}
+
+.MovieImage {
+  height: auto;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+
+.divCard {
+  justify-content: center;
+  align-items: center;
+}
+
+.btnEdit {
+  width: 70px;
+  color:white;
+}
+
+.btnDelete {
+  width: 70px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.divBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputdata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.data-input {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.data-input h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-input {
+  margin-bottom: 10px;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+button[type="submit"]:hover {
+  scale: 1.03;
+}
+
+.form-file {
+  color: white ;
+}
+
+.pnotif {
+  color: white;
+  text-align: center;
+  margin-top: 50vh;
+}
+
+.carddesc {
+  height: 40vh;
+}
+
+.divBtnEdit {
+  align-items: center;
+  text-align: center;
+}
